@@ -1,0 +1,21 @@
+{
+  "name": "dynamic-desk-chart",
+  "version": "1.0.0",
+  "description": "ECG Viewer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . ECG_Viewer  --overwrite"
+  },
+  "author": {
+    "name": "GM3",
+    "url": "http://gm3.jp"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "electron": ">=1.4.5",
+    "electron-packager": ">=8.1.0",
+    "node-forge": "^0.6",
+    "tcp-socket": "^0.5"
+  }
+}

@@ -1,0 +1,4 @@
+.*
+node_modules/
+ECG_Viewer*/
+!.gitignore
